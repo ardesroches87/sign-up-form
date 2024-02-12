@@ -1,0 +1,14 @@
+:root {
+    --jungle-green-color: #596D48;
+    --input-border-color: #E5E7EB;
+    --selected-input-color: rgb(67, 67, 248); 
+}
+
+@font-face {
+    font-family: Norse;
+    src: url(Norse-Bold.otf);
+}
+
+.brand-name {
+    font-family: Norse, Verdana, Geneva, Tahoma, sans-serif;
+}
