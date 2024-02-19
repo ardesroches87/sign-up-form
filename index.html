@@ -4,52 +4,116 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Odin Form</title>
 </head>
 <body>
-  <div class="hero">
-  <image src="images/halie-west-25xggax4bSA-unsplash.jpg"></image>
-  <image src="images/odin-lined.png"></image>
-  <p class="brand-name">Odin</p>
-  </div>
-  <div class="content">
-    <div class="blurb">
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class="italic">now</span> to get started.</p>
-        <p>You <span class="italic">know</span> you want to.</p>
+  <div class="wrapper">
+    <div class="hero">
+        <div class="logo">
+          <div class="image">
+            <image class="odin-logo" src="images/odin-lined.png"></image>
+          </div> 
+          <p class="brand-name">Odin</p>
+        </div>
+        <div class="copyright">Photo by Halie West on Unsplash</div>
     </div>
 
-    <form>
-      <header>Let's do this!</header>
-      <div class="inputs">
-        <div class="names">
-          <label>First Name</label>
-          <input>
-          <label>Last Name</label>
-          <input>
-          </div>
-          <div class="contact">
-            <label>Email</label>
-            <input>
-            <label>Phone Number</label>
-            <input>
-          </div>
-          <div class="password">
-            <label>Passowrd</label>
-            <input>
-            <label>Confirm Password</label>
-            <input>
-          </div>
-      </div>
-      <div class="button">
-        <button class="btn">Create Account</button>
-      </div>
-    </form>
-
-    <div class="login">
-        <p>Don't have an account? <span class="em">Log in</span></p>
+    <div class="main-content">
+        <div class="blurb">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class="italic">now</span> to get started.</p>
+            <p>You <span class="italic">know</span> you want to.</p>
+        </div>
+        <form>
+            <h2>Let's do this!</h2>
+                <ul>
+                    <li>
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="first_name">
+                    </li>
+                    <li>
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="last_name"> 
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </li>
+                    <li>
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number" name="phone-number">
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+                    </li>
+                    <li>
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password">
+                    </li>
+                </ul>
+        </form>
+        <div class="accounts">
+            <button>Create Account</button>
+            <p>Already have an account? <span class="em">Log in</span></p>
+        </div>
+    </div>
   </div>
-
-
     
 </body>
 </html>
+
+
+
+
+<!-- <div class="wrapper">
+    <div class="hero">
+        <image class="leaves-pic" src="images/halie-west-25xggax4bSA-unsplash.jpg" alt="green jungle leaves"></image>
+        <div class="logo">
+        <image class="odin-logo" src="images/odin-lined.png"></image>
+        <p class="brand-name">Odin</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="blurb">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class="italic">now</span> to get started.</p>
+            <p>You <span class="italic">know</span> you want to.</p>
+        </div>
+
+        <form>
+        <header>Let's do this!</header>
+        <div class="inputs">
+            <fieldset class="names">
+                <label for="first_name">First Name</label><br>
+                <input type="text" id="first_name" name="first_name"><br>
+              
+                <label for="last_name">Last Name</label><br>
+                <input type="text" id="last_name" name="last_name">
+            </fieldset>
+            <fieldset class="contacts">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email"><br>
+              
+                <label for="phone-number">Phone Number</label><br>
+                <input type="tel" id="phone-number" name="phone-number">
+            </fieldset>
+            <fieldset class="passwords">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password"><br>
+              
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+            </fieldset>
+        </div>
+        <div class="button">
+            <button class="btn">Create Account</button>
+        </div>
+        </form>
+
+        <div class="login">
+            <p>Don't have an account? <span class="em green">Log in</span></p>
+    </div>
+  </div> -->

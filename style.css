@@ -2,13 +2,209 @@
     --jungle-green-color: #596D48;
     --input-border-color: #E5E7EB;
     --selected-input-color: rgb(67, 67, 248); 
+    --light-black-color: rgb(34, 34, 34); 
 }
+
+
 
 @font-face {
     font-family: Norse;
-    src: url(Norse-Bold.otf);
+    src: url(fonts/Norse-Bold.otf);
+}
+
+.wrapper {
+    display: flex;
+    height: 98vh;
+}
+
+.hero {
+    width: 35%;
+    position: relative;
+    background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    display: flex;
+    margin-top: 35%;
+    background: rgb(0 0 0 / 0.5);
+    align-items: center;
+    
+    
+    
+}
+
+.brand-name {
+    font-family: Norse, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 70px;
+    flex: 1;
+    line-height: 0.15;
+    
+
+}
+
+.logo .image {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+      
+}
+
+.odin-logo {
+  height: 100px;
+
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    background-color: var(--input-border-color);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.em {
+    font-weight: bold;
+}
+
+h2, .blurb {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.blurb {
+    padding-top: 60px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ .hero {
+    position: relative;
+    width: 30%;
+    height: auto;
+
+ }
+
+ .leaves-pic {
+    display: block;
+    width: 100%;
+    height: auto;
+ }
+
+ .logo {
+    position: absolute;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: 20%;
+    background-color: rgb(0 0 0 / .5);  
+ }
+
+.odin-logo {
+    width: 20%;
+    height: 30%;
+   
 }
 
 .brand-name {
     font-family: Norse, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 95px;
+    color: var(--input-border-color); 
 }
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.blurb {
+    padding:  20px 40px;
+    background-color: var(--input-border-color);
+    color: var(--light-black-color);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.em {
+    font-style: bold;
+}
+
+.italic {
+    font-style: italic; 
+}
+
+.inputs, header {
+    padding: 20px 40px;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+header {
+    font-size: 30px;;
+}
+
+.button, .login {
+    padding: 20px 40px;
+    background-color: var(--input-border-color);
+}
+
+.btn {
+    background-color: var(--jungle-green-color);
+    color: white;
+}
+
+.green {
+    color: var(--jungle-green-color)
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+*/
