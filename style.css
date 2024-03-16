@@ -66,17 +66,15 @@
 
 }
 
-ul {
-    display: flex;
-    gap: 15px;
-    list-style-type: none;
-}
+
+
 
 .main-content {
     display: flex;
     flex-direction: column;
-    padding-left: 35px;
-    background-color: var(--input-border-color);
+    /* padding-left: 35px; */
+    background-color: rgb(240, 240, 240);
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .italic {
@@ -89,12 +87,60 @@ ul {
 
 h2, .blurb {
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .blurb {
     padding-top: 60px;
+}
 
+.blurb, .btn, .login {
+    padding: 35px;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+input {
+    border: 0.8px solid var(--input-border-color);
+    border-radius: 4px;
+    line-height: 2;
+    
+}
+
+input:focus {         /*why wont this work???*/
+    border: 2px solid blue !important;
+}
+
+input:hover {
+    border: 1px solid grey;
+}
+
+
+
+button {
+    background-color: var(--jungle-green-color);
+    color: white;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 4px 4px 8px rgb(0 0 0 / 0.15);
+}
+
+.form-wrapper {
+    background-color: white;
+    padding: 35px;
+    box-shadow: 0 7px 7px rgb(0 0 0 / 0.2);
+}
+
+.green-font {
+    color: var(--jungle-green-color);
 }
 
 

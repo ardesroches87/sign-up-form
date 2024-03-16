@@ -20,49 +20,53 @@
 
     <div class="main-content">
         <div class="blurb">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class="italic">now</span> to get started.</p>
-            <p>You <span class="italic">know</span> you want to.</p>
+            <p class="em">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class="italic">now</span> to get started.</p>
+            <p class="em">You <span class="italic">know</span> you want to.</p>
         </div>
         <form>
+          <div class="form-wrapper">
             <h2>Let's do this!</h2>
                 <ul>
                     <li>
-                        <label for="first_name">First Name</label>
+                        <label for="first_name">FIRST NAME</label><br>
                         <input type="text" id="first_name" name="first_name">
                     </li>
                     <li>
-                        <label for="last_name">Last Name</label>
+                        <label for="last_name">LAST NAME</label><br>
                         <input type="text" id="last_name" name="last_name"> 
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <label for="email">Email</label>
+                        <label for="email">EMAIL</label><br>
                         <input type="email" id="email" name="email">
                     </li>
                     <li>
-                        <label for="phone-number">Phone Number</label>
+                        <label for="phone-number">PHONE NUMBER</label><br>
                         <input type="tel" id="phone-number" name="phone-number">
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password">
+                        <label for="password">PASSWORD</label><br>
+                        <input class="passwords" type="password" id="password" name="password">
                     </li>
                     <li>
-                        <label for="confirm-password">Confirm Password</label>
-                        <input type="password" id="confirm-password" name="confirm-password">
+                        <label for="confirm-password">CONFIRM PASSWORD</label><br>
+                        <input class="passwords" type="password" id="confirm-password" name="confirm-password">
                     </li>
                 </ul>
+           </div>
+             <div class="btn">
+              <button type="button" class="em">Create Account</button>
+             </div>
         </form>
-        <div class="accounts">
-            <button>Create Account</button>
-            <p>Already have an account? <span class="em">Log in</span></p>
+        <div class="login">
+            <p>Already have an account? <span class="em green-font">Log in</span></p>
         </div>
     </div>
   </div>
-    
+<script src="js.js"></script>
 </body>
 </html>
 
